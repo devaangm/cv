@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>contact details</title>
-  </head>
-  <body>
-    <h2>CONTACT:</h2>
-    <h4>phone number: 6386152728</h4>
-    <h4>email: devaangm3@gmail.com</h4>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>contact details</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h1>CONTACT:</h1>
+  <h4>phone number: 6386152728</h4>
+  <h4>email: devaangm3@gmail.com</h4>
+  <form class="file" action="mailto:devaangm3@gmail.com" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="Name" value="Enter your name here">
+    <br><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="Gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="Gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="Gender" value="other">
+    <label for="other">Other</label>
+    <br /><br>
+    <table>
+      <tr>
+        <td> <label for="message">Message:</label></td>
+        <td> <textarea name="message" rows="3" cols="10"></textarea></td>
+      </tr>
+    </table>
+    <input type="submit" name="" value="Submit!">
+
+  </form>
+
+</body>
+
 </html>
